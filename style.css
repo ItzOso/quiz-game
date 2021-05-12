@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    background: lightcyan;
+}
+
+#container {
+    width: 900px;
+    margin: auto auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background: none;
+    border-bottom-right-radius: 0.5em;
+    border-bottom-left-radius: 0.5em;
+}
+
+#header {
+    height: 100px;
+    background: palegoldenrod;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 2em;
+    text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
+}
+
+#stats {
+    background: lightsalmon;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
+}
+
+#questions {
+    background: paleturquoise;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 3em;
+    text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
+    font-size: 2em;
+    font-weight: bold;
+}
+
+#answers {
+    background: lightseagreen;
+    text-align: center;
+    padding: 2em;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+#true {
+    font-size: 1.2em;
+    border: none;
+    padding: 0.5em 2em;
+    color: white;
+    background: palegreen;
+    border-radius: 0.5em;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-right: 1em;
+    transition: padding 0.5s;
+}
+
+#true:hover {
+    background: rgb(118, 255, 118);
+}
+
+#true:active {
+    padding: 0.4em 1.9em;
+}
+
+#false {
+    font-size: 1.2em;
+    border: none;
+    padding: 0.5em 2em;
+    color: white;
+    background: palevioletred;
+    border-radius: 0.5em;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: padding 0.5s;
+}
+
+#false:hover {
+    background: rgb(216, 97, 136);
+}
+
+#false:active {
+    padding: 0.4em 1.9em;
+}
+
+footer {
+    text-align: center;
+    background: lightgrey;
+    color: white;
+    padding: 0.5em;
+    border-bottom-right-radius: 0.5em;
+    border-bottom-left-radius: 0.5em;
+    text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
+}
